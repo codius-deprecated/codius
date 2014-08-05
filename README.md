@@ -22,3 +22,16 @@ As of Monday, August 4th, all of the Codius code is open source!
 We pulled multiple late nights to try to wrangle together an impressive demo for you all but we'll need a couple more days to make that happen. That said, we wanted to get all of this open sourced as soon as we could to get you involved in building this!
 
 If you're interested, play around with the code, ask us questions on the forum or live chat, and feel free to submit pull requests!
+
+## Project Roadmap
+
+- &#10003; Develop Javascript prototype of engine, host, and sandbox (8/4)
+- &#10003; Open source all code (8/4)
+- &#9744; Multisig Bitcoin demo enabling decentralized pull payment API (+ spending limits)
+- &#9744; Use [chain.com](https://chain.com) or other similar mechanism to give contracts access to blockchain data
+- &#9744; Fully port Express.js into a contract
+- &#9744; Get Python interpreter running in Native Client and integrated into codius-engine
+- &#9744; Set up basic codius-host billing system to fund [tokens](https://github.com/codius/codius-host/commit/818c8d4d2fdbea9fb62caaa0f7a601a8b2fea530)
+- &#9744; Finish [porting Node.js](https://github.com/codius/codius-lang-nodejs) to Native Client
+- &#9744; Automatic mechanism for finding Codius hosts
+- &#9744; Create a contract insurance/identity scheme to enable contract enforcement without escrow
